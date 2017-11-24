@@ -1,0 +1,339 @@
+h1, h2, h3, h4, p, a, label, figcaption {
+  font-family: Quicksand, sans-serif;
+  color: #242424;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.wp-caption-text {
+  margin-top: 0.2rem;
+  font-size: 90%;
+  color: #868e96;
+  font-style: italic;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+#breadcrumbs {
+  font-size: 80%;
+  text-transform: uppercase;
+}
+
+#breadcrumbs .fa-home {
+  font-size: 1rem;
+}
+
+a {
+  color: #FF404C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1CA5B8;
+}
+
+.widget ul {
+  padding: 0;
+  list-style: none;
+}
+
+.widget ul li a {
+  text-decoration: none;
+}
+
+.widget .post-date {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #1CA5B8;
+  font-style: italic;
+}
+
+.widget_wpcom_social_media_icons_widget a {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="password"],
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  resize: none;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 1px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 1px 1px inset;
+}
+
+.contact-form input[type="text"]:active,
+.contact-form input[type="email"]:active,
+.contact-form input[type="password"]:active,
+.contact-form textarea:active {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 1px 1px;
+}
+
+.contact-form input[type="submit"] {
+  padding: 0.5rem 1rem;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-navigation {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-navigation li {
+  margin-right: 2rem;
+}
+
+.main-navigation li a {
+  -webkit-transition: .2s color ease-out;
+  transition: .2s color ease-out;
+}
+
+.main-navigation li a:hover {
+  color: #1CA5B8;
+  text-decoration: none;
+}
+
+.search-btn {
+  font-size: 2rem;
+  padding: 0 1rem;
+  color: #1CA5B8;
+}
+
+.search-btn:hover {
+  color: #FF404C;
+}
+
+#main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #012c40;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+#main-header .page-header h1 {
+  font-family: "Fredoka One", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#main-header .page-header h2 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+h1.entry-title {
+  text-transform: uppercase;
+  line-height: 1;
+  color: #1CA5B8;
+  text-shadow: -1px -1px 0 #147a88, 1px -1px 0 #147a88, -1px 1px 0 #147a88, 1px 1px 0 #147a88;
+}
+
+h4.widget-title {
+  text-transform: uppercase;
+  border-bottom: 0.2rem solid #1CA5B8;
+  padding-bottom: 0.3rem;
+  color: #1CA5B8;
+}
+
+.entry-content h2, .entry-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.entry-content h2:first-child {
+  margin-top: 0;
+}
+
+.front-content h1:first-child {
+  font-size: 4.5rem;
+}
+
+#main-footer {
+  padding: 1rem 0;
+  background-color: #012c40;
+  margin-top: 2rem;
+}
+
+#main-footer .site-info {
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  background-color: beige;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.entry-meta {
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.entry-meta small {
+  font-style: italic;
+  font-weight: 700;
+  color: #1CA5B8;
+}
+
+.size-post-thumbnail,
+.block {
+  width: 100%;
+  height: auto;
+}
+
+.size-post-thumbnail {
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  margin-bottom: 0.6rem;
+}
+
+p img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+#service-sidebar h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #012c40;
+}
+
+#service-sidebar .cost-widget {
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+}
+
+#service-sidebar .cost-widget header, #service-sidebar .cost-widget .cost-details {
+  padding: 1rem;
+}
+
+#service-sidebar .cost-widget header {
+  background-color: #012c40;
+}
+
+#service-sidebar .cost-widget header h4 {
+  color: #fff;
+  margin: 0;
+  text-shadow: none;
+}
+
+#service-sidebar .cost-widget .cost-details .prices span {
+  margin: 0 1rem;
+  font-size: 1.8rem;
+  color: #FF404C;
+  text-shadow: -1px -1px 0 #434a51, 1px -1px 0 #434a51, -1px 1px 0 #434a51, 1px 1px 0 #434a51;
+}
+
+#service-sidebar ul {
+  margin: 0 0 2rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+#service-sidebar ul li {
+  margin-bottom: 0.6rem;
+}
+
+#service-sidebar ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#service-sidebar ul li a:hover, #service-sidebar ul li a:active, #service-sidebar ul li a:focus {
+  text-decoration: none;
+}
+
+#service-sidebar ul li a:hover:before, #service-sidebar ul li a:active:before, #service-sidebar ul li a:focus:before {
+  content: '\f046';
+  margin-right: 0.35rem;
+}
+
+#service-sidebar ul li a:before {
+  font-family: 'Fontawesome', sans-serif;
+  content: '\f096';
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  color: #1CA5B8;
+}
+
+.sidebar h4 {
+  border-bottom: 0.2rem solid #012c40;
+  padding-bottom: 0.3rem;
+  font-size: 2rem;
+}
+
+.widget {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #breadcrumbs {
+    font-size: 0.8rem;
+  }
+  .page-header h1 {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h1.display-3 {
+    font-size: 2.4rem;
+  }
+}
